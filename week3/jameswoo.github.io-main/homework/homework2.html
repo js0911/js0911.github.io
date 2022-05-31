@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homework 2</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: sans-serif;
+            /* If Lato not available, use sans-serif */
+            font-size: 3vw;
+            margin-top: 0;
+            /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
+        }
+
+        .titlebox {
+            text-align: center;
+            margin-bottom: 20vh;
+            /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
+
+        }
+
+        .container {
+            /* Target those elements containing class (dot) called 'container' */
+            display: flex;
+            /* This is the magic to make the 2 div align horizontally */
+            text-align: center;
+            margin-top: 10vh;
+            /* 80% height of the full page */
+        }
+
+        .container .box {
+            /* All the .box under .container */
+
+            /* Each column would takes up 50%, so equally sharing spaces left and right */
+            padding-left: 4vw;
+            padding-right: 2vw;
+            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+            /* vertically center */
+        }
+
+        h1 {
+
+            font-size: 3vw;
+            margin: 1vw 30vw;
+            padding: 1vw;
+            border-block-end: solid 1vh black;
+            border-right: solid 1vh black;
+            border-left: solid 1vh black;
+        }
+
+        p {
+            font-size: small;
+
+            text-align: center;
+            font-family: sans-serif;
+        }
+    </style>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div>
+        <div class="titlebox">
+            <h1>CUSTOMER REVIEWS</h1>
+        </div>
+        <div class="container">
+            <div id="box1" class="box">
+                <img src="images/homework2(1).jpg" />
+                <p style="border:10vh"><strong>Murielle Blake</strong></p>
+                <p>
+                    Testimonials are short quotes from<br> people who love your brand. It's a<br>great way to convince
+                    customers<br>to try your services.
+                </p>
+            </div>
+            <div id="box2" class="box">
+                <img src="images/homework2(2).jpg" />
+                <p style="border:10vh"><strong>Inna Tran</strong></p>
+                <p>
+                    Testimonials are short quotes from<br> people who love your brand. It's a<br>great way to convince
+                    customers<br>to try your services.
+                </p>
+            </div>
+            <div id="box3" class="box">
+                <img src="images/homework2(3).jpg" />
+                <p style="border:10vh"><strong>Clyde Meily</strong></p>
+                <p>
+                    Testimonials are short quotes from<br> people who love your brand. It's a<br>great way to convince
+                    customers<br>to try your services.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
