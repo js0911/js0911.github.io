@@ -1,72 +1,62 @@
 <!DOCTYPE html>
+
 <html>
+    <head>
+        <style>
+            body {
+            background-color: #FFFFFF;
+            font-family:sans-serif;
+            align-items: center; 
+            display: flex;           
+            margin-top: 1px;
+            margin-left: 1px;
+            }
 
-<head>
-    <title>Week 3 Sample</title>
-    <style>
-        body {
-            background-color: white;
-            font-family: 'Lato', sans-serif;
-            /* If Lato not available, use sans-serif */
-            font-size: 3vw;
-            /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
-        }
+            .titlebox {
+            border-right:solid black 7px;
+            border-top:solid black 7px;
+            border-bottom:solid black 7px; 
+            padding: 1vw;       
+            margin-right: 70px;
+            margin-top: 55px;
+            margin-left: 10px;  
+            }
 
-        .titlebox {
-            height: 20vh;
-            /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
-            text-align: center;
-        }
+            .container .box {
+            padding-left: 3vw;
+            padding-right: 3vw;
+            margin-top: 10px;
+            text-align:center;           
+            margin-left: auto;            
+            }
 
-        .container {
-            /* Target those elements containing class (dot) called 'container' */
-            display: flex;
-            /* This is the magic to make the 2 div align horizontally */
-            height: 80vh;
-            /* 80% height of the full page */
-        }
+           h1 {
+            font-size: 6vw;
+            margin-bottom: auto;
+            padding-left: 4vw;
+            padding-right: 4vw;
+            }
 
-        .container .box {
-            /* All the .box under .container */
-            width: 50%;
-            /* Each column would takes up 50%, so equally sharing spaces left and right */
+            p {
+            font-size: 2vw;
+            padding-left: 4vw;
+            } 
+        </style>
 
-            display: flex;
-            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-            align-items: center;
-            /* vertically center */
-        }
+        <title>Homeworks 1</title>
+    </head>
 
-        .box div {
-            /* All the div under .box */
-            width: 100%;
-        }
-        h1 {
-            padding: 10px;
-            border: 8px black solid;
-        }
-    </style>
-    <!-- this is HTML Comment 
-         The 2 lines below is to install Google Fonts. 
-         For all font in your homeworks, use Lato (as above)
-        -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-    <div class="titlebox">
-        <h1>My Title</h1>
-    </div>
-    <div class="container">
-        <div id="box1" class="box">
-            <img src="images/unsplash.jpg" />
+    <body>
+        <div class="titlebox">
+            <h1>MERLAND <br> FURNITURE</h1>
+            <p>Furniture, decor, and beyond</p>
         </div>
-        <div id="box2" class="box">
-            <div>Box 2</div>
+
+        <div class="container">
+            <div id="box1" class="box">
+                <img src="images/homework1.jpg" height="550vw"/>
         </div>
     </div>
-</body>
 
+    </body>
 </html>
