@@ -7403,6 +7403,13 @@ form .row:first-child .floating-label-form-group {
 #brandImage {
   height: 2rem; }
 
+.profile{
+  align-items: center;
+  margin-left: 500px;
+  height: 150px;
+  width: 150px;
+}
+
 .portfolio {
   padding-top: 6rem;
   padding-bottom: 4.5rem; }
