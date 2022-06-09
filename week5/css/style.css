@@ -12,7 +12,6 @@
     background: url("../images/background.jpg");
     background-position: center;
     background-size:cover;
-
   }
 
   .footer{
@@ -36,7 +35,6 @@ h1{
   padding: 10px;
   align-items: center;
   background-color: #333;
-  
 }
 
 /* Navbar links */
@@ -57,7 +55,6 @@ h1{
 /* Row */
 .row {
   display: flex;
-  
   flex-direction: row;
   border-style: #333 solid;
   border: 10px;
@@ -65,7 +62,7 @@ h1{
 
 /* Column */
 .column {
-  width: 33.33%;
+  width: 33%;
 }
 
 #column1 {
