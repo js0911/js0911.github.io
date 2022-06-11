@@ -164,7 +164,8 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none; 
+justify-content: center;}
 
 svg {
   overflow: hidden;
@@ -4722,6 +4723,9 @@ a.close.disabled {
 
 
 
+
+
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
@@ -7403,11 +7407,12 @@ form .row:first-child .floating-label-form-group {
 #brandImage {
   height: 2rem; }
 
-.profile{
-  align-items: center;
-  margin-left: 500px;
-  height: 150px;
-  width: 150px;
+#profile{
+  max-width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .portfolio {
