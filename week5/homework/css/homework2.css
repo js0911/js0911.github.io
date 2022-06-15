@@ -1,5 +1,5 @@
 #container {
-  background-color: #717171;
+  background-color: #f68a8a;
   max-width: 1024px;
   margin: auto;
   padding: 50px;
@@ -21,7 +21,7 @@
   justify-content: center;
   padding: 50px;
   margin-top: 20px;
-  background-color: aqua;
+  background-color: rgb(245, 31, 220);
 }
 
 .menu{
@@ -71,15 +71,16 @@ h1 {
 }
 
 .column {
-  background-color: antiquewhite;
+  background-color: rgb(104, 49, 205);
   border-style: solid;
   margin-right: 5%;
   width:70%;
 }
 
-p {
+.column p {
   display: flex;
-  color: #070707;
+  color:rgb(201, 245, 245);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   justify-content: center;
   font-size: 30px;
 }
@@ -90,7 +91,6 @@ p {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  border: #070707 solid 2px;
 }
 
 #logo{
@@ -99,6 +99,7 @@ p {
 
 .sidebar {
   width: 30%;
+  background-color: blueviolet;
   border: #070707 solid 2px;
 }
 

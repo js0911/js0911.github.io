@@ -14,6 +14,10 @@
     margin-bottom: 3%;
   }
 
+p{
+font-family:fantasy;
+font-size:15px;
+}
   .footer {
     display: flex;
     flex-direction: row;

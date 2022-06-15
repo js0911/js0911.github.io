@@ -89,8 +89,13 @@
 
         <div class="row">
             <div class="column">
-                <h1>Text content</h1>
-            </div>
+                <p>An illustration is a decoration, interpretation or visual explanation of a text, concept or process, 
+                    designed for integration in print and digital published media, such as posters, flyers, magazines, books, teaching materials, animations, video games and films. 
+                    </p>
+                    <p>An illustration is typically created by an illustrator.
+                    Digital illustrations are often used to make websites and apps more user-friendly, such as the use of emojis to accompany digital type.
+            </p>
+        </div>
 
             <div class="sidebar">
                 <a>SideBar</a> <br>
@@ -109,33 +114,26 @@
     </div>
 
     <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
         }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script>
+        </script>
 
 </body>
 
