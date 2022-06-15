@@ -1,0 +1,140 @@
+#container {
+    background-color: #aeaeae;
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px;
+  }
+  
+  .header {
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    border: #000000 solid 2px;
+    width: 100%; 
+    margin-bottom: 3%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    border: #333 solid 2px;
+  }
+  
+  .column {
+    border: #070707 solid 2px;
+    margin-right: 5%;
+  }
+
+  .menu {
+    width: 30%;
+    border: #070707 solid 2px;
+    margin-right: 1%;
+    align-items: center;
+  }
+  
+    /* Navbar links */
+  .menu a {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  /* Links - change color on hover */
+  .menu a:hover {
+    background-color: rgb(206, 43, 43);
+    color: black;
+    text-decoration: underline;
+  }
+
+  #menu{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu2{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .m2div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .main{
+    width: 50%;
+    border: #333 solid 2px;
+    margin-right: 1%;
+    text-align: center;
+  }
+
+  .right{
+    width: 50%;
+    border: #333 solid 2px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1024px) {
+    #menu {
+      flex-direction: column;
+    }
+  
+    .menu {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 10px;
+      justify-content: center;
+    }
+  
+    .main {
+      margin-top: 14px;
+      width: 100%;
+      padding: 30px;
+    }
+
+    .right {
+      margin-top: 14px;
+      width: 100%;
+      padding: 30px;
+    }
+    
+
+    .menu2 {
+      flex-direction: row;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .menu {
+      width: 100%;
+      flex-direction: row;
+    }
+  
+    .main {
+      width: 100%;
+      margin-right: 0%;
+    }
+  
+    .right {
+      width: 100%;
+      margin-top: 10px;
+    }    
+
+    .m2div{
+      flex-wrap: wrap;
+      display: flex;
+      
+    }
+  }
