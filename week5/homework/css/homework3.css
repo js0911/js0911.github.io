@@ -1,5 +1,5 @@
 #container {
-    background-color: #aeaeae;
+    background-color:#fbc9c9;
     max-width: 1300px;
     margin: auto;
     padding: 50px;
@@ -20,19 +20,16 @@
     justify-content: center;
     margin-top: 20px;
     width: 100%;
-    border: #333 solid 2px;
+    border: rgb(183, 177, 177) solid 2px;
+    background-color: aliceblue;
   }
   
-  .column {
-    border: #070707 solid 2px;
-    margin-right: 5%;
-  }
-
   .menu {
     width: 30%;
-    border: #070707 solid 2px;
+    border: #0821ff solid 2px;
     margin-right: 1%;
     align-items: center;
+    background-color: rgb(130, 163, 239);
   }
   
     /* Navbar links */
@@ -48,7 +45,7 @@
   
   /* Links - change color on hover */
   .menu a:hover {
-    background-color: rgb(206, 43, 43);
+    background-color: rgba(66, 204, 222, 0.816);
     color: black;
     text-decoration: underline;
   }
@@ -72,15 +69,17 @@
 
   .main{
     width: 50%;
-    border: #333 solid 2px;
+    border: rgb(153, 255, 0) solid 2px;
     margin-right: 1%;
     text-align: center;
+    background-color: rgb(255, 237, 163);
   }
 
   .right{
     width: 50%;
-    border: #333 solid 2px;
+    border: rgb(255, 0, 0) solid 2px;
     text-align: center;
+    background-color: rgba(253, 76, 76, 0.414);
   }
 
   @media screen and (max-width: 1024px) {

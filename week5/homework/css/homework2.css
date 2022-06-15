@@ -40,7 +40,7 @@ h1 {
 /* The navbar container */
 .topnav {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   /* flex-end, space-around, space-between */
   padding: 10px;
   align-items: center;
