@@ -24,13 +24,10 @@
   background-color: aqua;
 }
 
-.phone {
-  margin-bottom: 40px;
-}
-
 .menu{
   width: 50%;
 }
+
 h1 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -40,13 +37,12 @@ h1 {
 /* The navbar container */
 .topnav {
   display: flex;
-  justify-content:space-between;
   /* flex-end, space-around, space-between */
   padding: 10px;
   align-items: center;
   background-color: #333;
   margin-bottom: 20px;
-  margin-top: 80px;
+  margin-top: 10px;
 }
 
 /* Navbar links */
@@ -94,6 +90,11 @@ p {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  border: #070707 solid 2px;
+}
+
+#logo{
+  width: 50%;
 }
 
 .sidebar {
@@ -211,7 +212,8 @@ p {
   .column {
     width: 100%;
     margin-bottom: 20px;
-    margin-right: auto;
+    padding: 50px;
+    margin-right: 0%;
   }
 
   .sidebar {
@@ -228,11 +230,19 @@ p {
     width: 100%;
   }
 
+  .topnav{
+ display: flex;
+ flex-direction: row;
+
+  }
   .topnav a {
     color: #ffffff;
     text-align: center;
-    padding: 1px;
+    padding: 0px;
     text-decoration: none;
   }
 
+p{
+  font-size: small;
+}
 }
