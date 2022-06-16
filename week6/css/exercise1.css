@@ -1,0 +1,84 @@
+body,html{
+height: 100%;
+margin: 0;
+}
+
+#container {
+    background-image: url(../images/forest.jpg);
+    border: #000 solid 2px;
+    background-size: cover;
+    position: relative;
+  }
+
+  .logo{
+    width: 100%;
+    border: #000 solid 2px;
+  }
+
+  #logo{
+    width: 40%;
+  }
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 70px;
+    border: #000 solid 2px;
+}
+
+.nav{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+     color: antiquewhite;
+}
+
+div.relative {
+    position: relative;
+    height:800px;
+  }
+
+div.center {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 30%;
+    text-align: center;
+    font-size: 10px;
+  }
+
+.icon{
+  display: flex;
+}
+
+.icon a{
+font-size: 7px;
+color: aliceblue;
+}
+
+div.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  font-size: 10px;
+  flex-direction: row;
+  display: flex;
+}
+
+div.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+  border: rgb(252, 252, 252) dotted 2px;
+}
+
+div.bottomleft a{
+  color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+    font-size: medium;
+}

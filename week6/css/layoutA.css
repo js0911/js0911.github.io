@@ -1,0 +1,48 @@
+.logo { grid-area: logo; }
+.menu { grid-area: menu; }
+.slideshow { grid-area: slideshow; }
+.feat1 { grid-area: feat1; }
+.feat2 { grid-area: feat2; }
+.feat3 { grid-area: feat3; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'logo logo menu menu menu menu'
+    'slideshow slideshow slideshow slideshow slideshow slideshow'
+    'feat1 feat1 feat2 feat2 feat3 feat3'
+    'sidebar sidebar content content content content'
+    'footer footer footer footer footer footer';
+    
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.slideshow{
+  height: 200px;
+}
+
+.feat1{
+  height: 100px;
+}
+.feat2{
+  height: 100px;
+}
+.feat3{
+  height: 100px;
+}
+
+.sidebar{
+  height: 180px;
+}

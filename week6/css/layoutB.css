@@ -1,0 +1,51 @@
+.logo { grid-area: logo; }
+.phone { grid-area: phone; }
+.menu { grid-area: menu; }
+.slideshow { grid-area: slideshow; }
+.feat1 { grid-area: feat1; }
+.feat2 { grid-area: feat2; }
+.feat3 { grid-area: feat3; }
+.feat4 { grid-area: feat4; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'logo logo space space space phone phone phone'
+  'menu menu menu menu menu menu menu menu'
+  'slideshow slideshow slideshow slideshow slideshow slideshow slideshow slideshow'
+  'feat1 feat1 feat2 feat2 feat3 feat3 feat4 feat4'
+  'content content content content content sidebar sidebar sidebar'
+  'footer footer footer footer footer footer footer footer';
+    
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.phone{
+height: 30px;
+}
+
+.slideshow{
+    height: 300px;
+}
+
+.content{
+    height: 250px;  
+}
+
