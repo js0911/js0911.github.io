@@ -11,11 +11,11 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'logo logo menu menu menu menu'
-    'slideshow slideshow slideshow slideshow slideshow slideshow'
-    'feat1 feat1 feat2 feat2 feat3 feat3'
-    'sidebar sidebar content content content content'
-    'footer footer footer footer footer footer';
+    'logo logo logo logo menu menu menu menu menu'
+    'slideshow slideshow slideshow slideshow slideshow slideshow slideshow slideshow slideshow'
+    'feat1 feat1 feat1 feat2 feat2 feat2 feat3 feat3 feat3'
+    'sidebar sidebar sidebar sidebar content content content content content'
+    'footer footer footer footer footer footer footer footer footer';
     
   gap: 10px;
   background-color: #2196F3;
@@ -44,5 +44,10 @@
 }
 
 .sidebar{
-  height: 180px;
+  height: 200px;
 }
+
+.footer{
+  height: 80px;
+}
+

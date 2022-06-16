@@ -29,19 +29,10 @@
   font-size: 30px;
 }
 
-.logo{
-    width: 300px;
-}
-
-.slideshow{
-  height: 150px;
-}
-
 .sidebar{
   height: 400px;
 }
 
-
-.content{
-    height: 150px;
+.footer{
+  height:200px;
 }

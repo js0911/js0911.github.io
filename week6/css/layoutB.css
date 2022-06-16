@@ -13,7 +13,7 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-  'logo logo space space space phone phone phone'
+  'logo logo logo space space phone phone phone'
   'menu menu menu menu menu menu menu menu'
   'slideshow slideshow slideshow slideshow slideshow slideshow slideshow slideshow'
   'feat1 feat1 feat2 feat2 feat3 feat3 feat4 feat4'
@@ -33,12 +33,12 @@
 }
 
 .logo{
-    width: 200px;
     height: 100px;
 }
 
 .phone{
 height: 30px;
+margin-top: 30px;
 }
 
 .slideshow{
@@ -47,5 +47,9 @@ height: 30px;
 
 .content{
     height: 250px;  
+}
+
+.feat1{
+  height: 100px;
 }
 

@@ -34,7 +34,14 @@
   height: 200px;
 }
 
+.content{
+  height: 200px;
+}
 
 .sidebar{
-  height: 180px;
+  height: 200px;
+}
+
+.footer{
+  height: 150px;
 }
