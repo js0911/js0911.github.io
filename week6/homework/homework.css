@@ -39,11 +39,18 @@
         'socialmedia  background1';
     background-image: url(../homework/Images/Bg\ Shape@2x.png);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: fixed;
+    background-position:right top;
     background-size: 660px;
     background-color: rgb(255, 255, 255);
     gap: 10px;
     padding: 10px;
+}
+
+#background1 {
+    height: 100%;
+    width: 100%;
+    margin-left: 5%;
 }
 
 #grid1>div {
@@ -70,6 +77,8 @@
     align-items: center;
     font-size: 40px;
 }
+
+
 
 #menu a {
     font-size: 15px;
@@ -138,8 +147,9 @@
 
 .mouse {
     position: absolute;
-    bottom: 0;
-    right: 612px;
+    bottom: 30%;
+    right: 50%;
+    padding: 20px;
 }
 
 #mousebutton {
@@ -166,6 +176,7 @@
 #grid2{
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 
@@ -508,23 +519,26 @@
     background-repeat: no-repeat, no-repeat;
     background-size: 1500px 1500px, 2300px 2500px;
     background-position: 50% 35%, 93% 39%;
-     border: #717171 solid 2px;
+
 }
 
 .f1 {
-    width: 100%;
+    display: flex;
+    width: 50%;
     height: 500px;
     position: relative;
-    border: #717171 solid 2px;
+    bottom: 0;
+    left: 0;
 }
 
 .f2 {
-    position: relative;
-  
+    display: flex;
+    width: 50%;
     height: 500px;
-    border: #717171 solid 2px;
-
+    position: relative;
+    right: 0;
 }
+
 
 .icon2 {
     position: absolute;
@@ -586,16 +600,16 @@
 }
 
 .hour {
-    position: absolute;
+    margin-top: 230px;
+    margin-left: 50px;
     width: 180px;
-    bottom: 38px;
-    right: 400px;
     display: flex;
     flex-direction: column;
     text-align: justify;
-    font-size: smaller;
+    font-size: 13px;
     color: aliceblue;
 }
+
 
 .hour h4 {
     color: aliceblue;
@@ -603,16 +617,13 @@
 }
 
 .contact {
-    position: absolute;
-    width: 180px;
-    bottom: 125px;
-    right: 150px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
-    text-align: justify;
-    font-size: smaller;
-    color: aliceblue;
-    padding: 20px;
+}
+
+.contact> div{
+    margin-top: 20px;
 }
 
 .contact a {
@@ -724,4 +735,56 @@
     align-items: center;
 }
 
+.icon2{
+position: relative;
+top: 220px;
+left: 100px;
+}
+
+.f2{
+    display: flex;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    right: 0;
+    top: 200px;
+}
+
+
+
+.grid1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: top;
+}
+
+.marketing {
+    margin-right: 50px;
+    margin-left: 0;
+}
+
+#background1 {
+    display: none;
+}
+
+.mouse{
+    display: none;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    top: 130px;
+    text-align: left;
+    width: 500px;
+    margin-left: 120px;
+    margin-top: 70px;
+}
+
+#menu a{
+    color: black;
+}
 }
