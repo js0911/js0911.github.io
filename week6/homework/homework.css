@@ -37,7 +37,7 @@
     grid-template-areas:
         'marketing  menu'
         'socialmedia  background1';
-    background-image: url(../homework/Images/Bg\ Shape@2x.png);
+    background-image: url(../homework/images/Bg\ Shape@2x.png);
     background-repeat: no-repeat;
     background-position: fixed;
     background-position:right top;
@@ -135,7 +135,7 @@
 }
 
 .button {
-    background-image: url(../homework/Images/Rectangle\ 8@2x.png);
+    background-image: url(../homework/images/Rectangle\ 8@2x.png);
     background-repeat: no-repeat;
     color: white;
     width: 220px;
