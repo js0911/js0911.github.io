@@ -330,13 +330,11 @@
     align-items: center;
     border: rgb(255, 255, 255) solid 2px;
     background-color: white;
-  
     border-radius: 20px;
     text-align: center;
 }
 
 #package1 {
-    float: left;
     margin-top: 20px;
     margin-left: 20px;
     width: 30%;
@@ -401,7 +399,7 @@
 .package1 p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 1.2vw;
+    font-size: 15px;
     color: rgba(150, 155, 170, 255);
     margin-top: 50px;
 }
@@ -409,7 +407,7 @@
 #package1 p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 1.2vw;
+    font-size: 15px;
     color: rgba(150, 155, 170, 255);
     margin-top: 50px;
 }
@@ -480,7 +478,7 @@
 
 .footer1 p {
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 30px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
