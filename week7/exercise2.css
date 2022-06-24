@@ -3,8 +3,10 @@ body {
 }
 
 i{
-  color: rgb(45, 20, 233);
+  color: rgb(255, 4, 4);
 }
+
+
 
 .overlay {
   height: 100%;
@@ -49,13 +51,11 @@ i{
 
 .topnav {
     overflow: hidden;
-    background-color:rgb(227, 127, 21);
+    background-color:rgb(46, 31, 184);
     display: flex;
-    justify-content: space-between;
   }
   
   .topnav a {
-    display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -64,14 +64,43 @@ i{
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: rgb(225, 0, 255);
+    color: rgb(0, 0, 0);
   }
+
+  .topnav a.active {
+    background-color: #ffe600;
+    color: rgb(255, 255, 255);
+}
 
   .topnav span{
     padding: 10px;
   }
   
+  .topnav .icon{
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav {
+      flex-direction: column;
+  }
+
+  .topnav a:not(:first-child) {
+      display: none;
+  }
+
+  .topnav a.icon {
+      display: block;
+      position: absolute;
+      right: 0;
+  }
+
+  .topnav.responsive  {
+      position: relative;
+  }
+
+  }
 
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}

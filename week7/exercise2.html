@@ -4,41 +4,63 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="exercise2.css">
+    <script src="https://kit.fontawesome.com/f63186d728.js" crossorigin="anonymous"></script>
     <title>Exercise2</title>
 </head>
 
 <body>
     <div class="topnav" id="myTopnav">
         <a href="#home" class="active">Home</a>
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i id="icon" class="fa-solid fa-address-book"></i>
+        </a>
     </div>
 
-    <h2>Fullscreen Overlay Nav Example</h2>
-        <p>Click on the element below to open the fullscreen overlay navigation menu.</p>
-        <p>In this example, the navigation menu will slide in, from left to right:</p>
-          
+
     <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav(),myFunction">
+            <i id="icon1" i class="fa-solid fa-book-skull"></i>
+        </a>
+
         <div class="overlay-content">
-          <a href="#home" class="active">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i id="icon" class="fa-solid fa-address-book"></i>
-          </a>
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
         </div>
     </div>
 
-        <script>
-            function openNav() {
+    <div>
+    <h2>Fullscreen Overlay Nav Example</h2>
+    <p>Click on the element below to open the fullscreen overlay navigation menu.</p>
+    <p>In this example, the navigation menu will slide in, from left to right:</p>
+</div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
                 document.getElementById("myNav").style.width = "100%";
+            } else {
+                x.className = "topnav";
             }
 
-            function closeNav() {
-                document.getElementById("myNav").style.width = "0%";
+
+            var x = document.getElementById("icon");
+            if (x.className === "fa-solid fa-address-book") {
+                x.className = "fa-solid fa-book-skull";
+            } else {
+                x.className = "fa-solid fa-address-book";
             }
-        </script>
+        }
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
 
 </body>
 

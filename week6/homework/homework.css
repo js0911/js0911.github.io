@@ -33,34 +33,44 @@
 }
 
 #grid1 {
-    display: grid;
-    grid-template-areas:
-        'marketing  menu'
-        'socialmedia  background1';
-    background-image: url(../homework/images/Bg\ Shape@2x.png);
+display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
     background-repeat: no-repeat;
     background-position: fixed;
     background-position:right top;
     background-size: 660px;
     background-color: rgb(255, 255, 255);
-    gap: 10px;
-    padding: 10px;
+    height: 700px;
+}
+
+.topnav{
+    display: flex;
+ width: 2000px;
+    height:30%;
 }
 
 #background1 {
+    display: flex;
     height: 100%;
-    width: 100%;
+    width: 50%;
     margin-left: 5%;
 }
 
-#grid1>div {
-    text-align: center;
-    font-size: 30px;
+#content{
+    display: flex;
+    height: 70%;
+    width: 50%;
+}
+
+#content1{
+    width: 100%;
+    height: 30%;
+    display: flex;
 }
 
 #socialmedia {
-    height: 500px;
-    width: 600px;
+    display: flex;
+    height: 50%;
+    width: 50%;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -78,7 +88,9 @@
     font-size: 40px;
 }
 
-
+#menu{
+   margin-left: 300px;
+}
 
 #menu a {
     font-size: 15px;
