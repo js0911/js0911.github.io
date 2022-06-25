@@ -1,7 +1,7 @@
 #container {
     max-width: 1280px;
     margin: auto;
-  }
+}
 
 
 #marketing {
@@ -33,35 +33,28 @@
 }
 
 #grid1 {
-display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-position:right top;
-    background-size: 660px;
-    background-color: rgb(255, 255, 255);
-    height: 700px;
+    display: flex;
 }
 
-.topnav{
+.topnav {
     display: flex;
- width: 2000px;
-    height:30%;
+    width: 2000px;
+    height: 30%;
 }
 
 #background1 {
     display: flex;
-    height: 100%;
-    width: 50%;
-    margin-left: 5%;
+    margin-top: 35px;
+    margin-left: 100px;
 }
 
-#content{
+#content {
     display: flex;
     height: 70%;
     width: 50%;
 }
 
-#content1{
+#content1 {
     width: 100%;
     height: 30%;
     display: flex;
@@ -69,69 +62,80 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
 
 #socialmedia {
     display: flex;
-    height: 50%;
-    width: 50%;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    margin-left: 100px;
 }
 
 #marketing {
-    height: 50px;
-    width: 400px;
     display: flex;
-    flex-direction: row;
-    margin-left: 200px;
 }
 
 #marketing h3 {
-    display: flex;
+    display: block;
+    flex-direction: column;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
-#menu{
-   margin-left: 300px;
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 50px;
 }
 
 #menu a {
     font-size: 15px;
     color: aliceblue;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .icon {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
-    bottom: 170px;
-    left: 20px;
-    margin-left: 40px;
+    top: 310px;
+    width: 10%;
 }
 
 .icon img {
     padding: 20px;
 }
 
+
+.menu {
+    width: 50%;
+    background-image: url(../homework/images/Bg\ Shape@2x.png);
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
 .content {
-    position: absolute;
     display: flex;
     flex-direction: column;
-    left: 100px;
-    top: 130px;
-    text-align: left;
-    width: 500px;
-    margin-left: 120px;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 .content h1 {
     font-size: 60px;
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #494949;
 }
 
-.content h2 {
-    font-size: 40px;
+.content h5 {
+    font-weight: 10;
+    font-size: 50px;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    color: #4b4b4bec;
 }
 
 .content p {
@@ -158,9 +162,7 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
 }
 
 .mouse {
-    position: absolute;
-    bottom: 0px;
-    right: 600px;
+    display: flex;
     padding: 20px;
 }
 
@@ -185,10 +187,11 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
     margin-top: 250px;
 }
 
-#grid2{
+#grid2 {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    background-image: url(../homework/images/who\ we\ are\ background@2x.png);
 }
 
 
@@ -208,10 +211,20 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
     height: 100%;
 }
 
-.biodiv{
+.biodiv {
     width: 50%;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 5px;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.biodiv h4 {
+    color: rgba(148, 143, 225, 255);
+}
+
+.biodiv h1 {
+    color: #494949
 }
 
 #biographybtn {
@@ -237,26 +250,28 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
 }
 
 
-.bg2{
-    width: 40%;
-    height: 30%;
+.bg2 {
+    width: 50%;
+    height: 50%;
+
 }
 
-.column0{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
+.column0 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
-#grid3{
+#grid3 {
     margin-top: 100px;
-}
-#grid3>div {
-    background-color: rgb(255, 255, 255);
+    background-image: url(../homework/images/background@2x.png);
+    background-size: cover;
     background-size: 100%;
 }
 
-#word{
+
+
+#word {
     margin-left: 30px;
 }
 
@@ -277,20 +292,27 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
 
 .service {
     margin-top: 20px;
-    width: 400px;
-    height: 450px;
+    width: 30%;
+    height: 400px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     border: rgb(219, 219, 219) solid 2px;
     border-radius: 20px;
-    margin:3%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
 }
 
-.column{
+.empty {
+    height: 200px;
+}
+
+.column {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .service a {
@@ -326,8 +348,8 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
 }
 
 .package {
-    height: 500px;
     display: flex;
+    height: 500px;
     justify-content: center;
     flex-direction: row;
     align-items: center;
@@ -336,9 +358,9 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
 
 .package1 {
     margin-top: 20px;
-    margin-left: 20px;
+    margin: 3%;
     width: 30%;
-    height: 80%;
+    height: 400px;
     align-items: center;
     border: rgb(255, 255, 255) solid 2px;
     background-color: white;
@@ -349,8 +371,9 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
 #package1 {
     margin-top: 20px;
     margin-left: 20px;
+    margin: 3%;
     width: 30%;
-    height: 80%;
+    height: 400px;
     align-items: center;
     border: rgb(255, 255, 255) solid 2px;
     background-color: white;
@@ -462,7 +485,7 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
 }
 
 
-.footer{
+.footer {
     width: 100%;
 }
 
@@ -525,41 +548,27 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
 
 .footer2 {
     display: flex;
-    background-image: url("../homework/images/Bg\ Shape\ footer\ 2@2x.png"), url(../homework/images/Bg\ Shape\ footer\ 1@2x.png);
-    background-repeat: no-repeat, no-repeat;
-    background-size: 1500px 1500px, 2300px 2500px;
-    background-position: 50% 35%, 93% 39%;
-
+    background-image: url("../homework/images/footer.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: space-evenly;
 }
 
 .f1 {
     display: flex;
-    width: 50%;
-    height: 500px;
-    position: relative;
-    bottom: 0;
-    left: 0;
 }
 
 .f2 {
     display: flex;
-    width: 50%;
-    height: 500px;
-    position: relative;
-    right: 0;
 }
 
 
 .icon2 {
-    position: absolute;
-    bottom: 70px;
-    left: 160px;
     font-size: 18px;
-    min-width: 80px;
     padding: 30px;
     display: flex;
     flex-direction: column;
-    
+    margin-top: 200px;
 }
 
 .icon2 h2 {
@@ -570,7 +579,7 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
     font-size: 30px;
     margin-bottom: 4px;
     color: white;
-   
+
 }
 
 .icon2 h3 {
@@ -581,7 +590,7 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
     font-size: 25px;
     margin-bottom: 10px;
     color: white;
-    
+
 }
 
 .icon2 span {
@@ -589,10 +598,8 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
 }
 
 .link {
-    position: absolute;
+    margin-top: 200px;
     width: 180px;
-    bottom: 70px;
-    left: 440px;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -609,21 +616,24 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
     color: aliceblue;
 }
 
+.hour a {
+    padding-top: 15px;
+    color: aliceblue;
+}
+
 .hour {
-    margin-top: 230px;
-    margin-left: 50px;
+    margin-top: 200px;
     width: 180px;
     display: flex;
     flex-direction: column;
     text-align: justify;
-    font-size: 13px;
+    font-size: 15px;
     color: aliceblue;
 }
 
 
 .hour h4 {
     color: aliceblue;
-    margin-top: 10px;
 }
 
 .contact {
@@ -632,7 +642,7 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
     flex-direction: column;
 }
 
-.contact> div{
+.contact>div {
     margin-top: 20px;
 }
 
@@ -646,135 +656,89 @@ display: flex;      background-image: url(../homework/images/Bg\ Shape@2x.png);
     color: aliceblue;
 }
 
-@media screen and (max-width: 1000px) {
-    .page4 {
-        width: fit-content;
-        height: fit-content;
-        width: 100%;
-        height: 100%;
+@media screen and (max-width: 600px) {
+grid3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.word{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+.pg4_dot{
+    display: none;
+}
+
+
+.package{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1;
+}
+
+.package1{
+    width: 90%;
+}
+
+#package1{
+    width: 90%;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price{
+    margin-bottom: 100px;
+}
+
+.page4{
+    height: 100%;
+}
+    .service a {
+        margin-left: 0;
+    }
+    
+    .bg2{
+        display: none;
     }
 
-    .package {
-        width: 100%;
-        height: 80%;
-        flex-direction: column;
-    }
-
-    .price {
-        width: 100%;
-        height: 50%;
-    }
-
-    .icon2 {
-        width: 1%;
-        height: 20%;
-    }
-
-    .link {
-        top: 260px;
-        margin-top: 10px;
-        left: 20px
-    }
-
-
-    .hour {
-        top: 260px;
-        margin-top: 10px;
-        right: 200px;
-    }
-
-    .contact {
-        top: 260px;
-        margin-top: 10px;
-    }
-
-    .column{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .service {
-        margin-top: 20px;
-        width: 100%;
-        height: 30%;
-        border: rgb(219, 219, 219) solid 2px;
-        border-radius: 20px;
-    }
-
-    #grid3{
-        width: 100%;
+    .column0{
         text-align: center;
     }
 
-    .service a{
-        margin-left: 0;
+    .biographybtn1{
+        text-align: center;
     }
 
-
-.column0{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .footer2{
+       
+            background-image: url(../homework/images/footer.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap-reverse;
 }
-
-#grid2{
-    display: flex;
-    justify-content: space-between;
-}
-
-#biography{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin-top: 40px;
-}
-
-
-.biodiv{
-    width: 100%;
-}
-
-.bg2 img{
-    width: 100%;
-    height: 100%;
-}
-
-#biographybtn1{
-    display: flex;
-    align-items: center;
-}
-
-.icon2{
-position: relative;
-top: 220px;
-left: 100px;
-}
-
-.f2{
-    display: flex;
-    width: 50%;
-    height: 200px;
-    position: relative;
-    right: 0;
-    top: 200px;
-}
-
-
-
-.grid1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-position: top;
-}
-
-.marketing {
-    margin-right: 50px;
-    margin-left: 0;
-}
-
-#background1 {
+#background1{
     display: none;
 }
 
@@ -782,19 +746,90 @@ left: 100px;
     display: none;
 }
 
-.content {
-    position: absolute;
+.menu {
+    width: 10%;
+    background-image:none;
+
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+#menu{
     display: flex;
     flex-direction: column;
-    left: 0px;
-    top: 130px;
-    text-align: left;
-    width: 500px;
-    margin-left: 120px;
-    margin-top: 70px;
+    margin: 0%;
+    margin-top: 120px;
 }
 
 #menu a{
     color: black;
+    
+    flex-direction: column;
 }
+
+
+
+}
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    .service {
+        width: 45%;
+        height: 500px;
+    }
+
+    .package {
+        margin: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .package1 {
+        width: 40%;
+        margin: 30px;
+    }
+
+    #package1 {
+        width: 40%;
+    }
+
+    .page4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 1200px;
+    }
+
+
+    .column0 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #grid2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #biography {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .biodiv {
+        width: 100%;
+    }
+
+    .bg2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #biographybtn1 {
+        display: flex;
+        align-items: center;
+    }
 }
