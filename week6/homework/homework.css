@@ -212,10 +212,9 @@
 }
 
 .biodiv {
-    width: 50%;
+    width: 80%;
     margin-right: 5px;
     margin-left: 50px;
-    margin-top: 100px;
     font-size: 20px;
 }
 
@@ -656,7 +655,7 @@
     color: aliceblue;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 grid3{
     display: flex;
     flex-wrap: wrap;
@@ -764,14 +763,32 @@ grid3{
 
 #menu a{
     color: black;
-    
     flex-direction: column;
 }
 
+.icon2{
+    margin-top: 10px;
+}
+
+.hour{
+    margin-top: 10px;
+    
+    width: 300px;
+}
+
+.link{
+    margin-top: 10px;
+    width: 300px;
+}
+
+.contact{
+    margin-top: 10px;
+}
+
 
 
 }
-@media screen and (max-width: 1000px) and (min-width: 600px) {
+@media screen and (max-width: 1000px) and (min-width: 800px) {
     .service {
         width: 45%;
         height: 500px;
@@ -832,4 +849,15 @@ grid3{
         display: flex;
         align-items: center;
     }
+
+    #menu{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+
+.pg4_dot{
+    display: none;
+}
 }
