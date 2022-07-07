@@ -1,0 +1,89 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=tel] {
+    width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  form{
+    background-color:#ddf3ee;
+  }
+
+  #fname, #lname, #region, #postcode, #country, #city{
+    width: 49%;
+  }
+
+  fieldset{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  
+  input[type=submit] {
+    width: 100px;
+    background-color: #23622b;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 14px 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .form1 {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  ::placeholder { 
+    color: #45a049;
+  }
+
+  legend{
+    color:#396255;
+  }
+
+  #country{
+    color: #45a049;
+  }
+
+  .email{
+    display: flex;
+    gap: 10px;
+  }
