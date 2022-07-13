@@ -4,7 +4,8 @@ html {
   
   #container {
     max-width: 1320px;
-  margin: auto;
+    margin: auto;
+    background-color:  #06283D;
   }
   
   body {
@@ -13,12 +14,12 @@ html {
   }
   
   .section1 {
-    background-image: url(images/home1.jpg);
+    background-image: url(../images/home1.jpg);
     height: auto;
     width: 100%;
     max-width: 1320px;
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
     border: none;
   }
   
@@ -127,7 +128,7 @@ html {
   }
   
   #section2 {
-  background-image: url(images/home1.png);
+  background-image: url(../images/home1.png);
   height: 800px;
   width: 100%;
   max-width: 1320px;
@@ -217,6 +218,7 @@ html {
     display: flex;
     height: auto;
     justify-content: center;
+    background-color: #FFFFFF;
   }
   
   .logo{
@@ -227,11 +229,11 @@ html {
   .sign {
     width: 280px;
     height: 160px;
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
   }
   
-  /*FOOTER  201-249*/ 
+  /*Footer*/
   .footer {
     height: 220px;
     background-color: #D9D9D9;
@@ -284,15 +286,16 @@ html {
     text-decoration: none;
   }
   
+
   @media screen and (max-width: 800px){
-  
+        
     .section1 {
-      background-image: url(images/2310ff80760189.5ceade8af1e0a.jpg);
+      background-image: url(../images/2310ff80760189.5ceade8af1e0a.jpg);
       width: auto;
       height: 100%;
       max-height: 1000px;
       background-repeat: no-repeat;
-      background-size:100%;
+      background-size:cover;
       border: none;
     }
     
@@ -301,25 +304,27 @@ html {
       flex-wrap: wrap-reverse;
     }
     .quote{
-      margin-top: 80%;
+      margin-top: 100%;
     }
   
     .quote a{
       font-size: 3vw;
       color: #000000;
+      display: none;
     }
     
     .quote span{
       font-size: 3vw;
+      color: white;
     }
    
     #section2 {
-      background-image: url(images/untilted\ design600px.png);
-      height: 500px;
+      background-image: url(../images/untilted\ design600px.png);
+      height: 600px;
       width: 100%;
       max-width: 1320px;
       background-repeat: no-repeat;
-      background-size:100%;
+      background-size:cover;
       border: none;
       }
   
@@ -334,7 +339,6 @@ html {
         margin-top: 50px;
       }
       
-  
    /*footer*/
     .footer{
       display: flex;
@@ -405,5 +409,116 @@ html {
   /*MENU*/
   }
   
+   .section3 {
+    background-image: url(../images/TEAM\ USA\ BG.png);
+    height: auto;
+    background-size:cover;
+    width: 100%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
   
+  .p1 {
+    width: 30%;
+    height: 50%;
+    font-weight: 400;
+    font-size: 28px ;
+    text-align: center;
+    padding-top: 14%;
+    padding-left: 20px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+  }
   
+  .usabg{
+    position: relative;
+  }
+
+  .usabg img {
+    position: absolute;
+    bottom: 0;
+    left: -260px;
+  }
+  
+  .olympic {
+    padding-top: 250px;
+    width: 25%;
+    height: 400px;
+    color: #FFFFFF;
+  }
+  
+  .olympic h1{
+    text-align: center;
+    font-size: 32px;
+    text-decoration: underline;
+    
+  }
+  
+  .olympic p {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 25%;
+  }
+  
+  @media screen and (max-width: 800px){
+    .section3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+      .p1 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        font-weight: 400;
+        font-size: 28px ;
+        text-align: center;
+        padding-top: 0%;
+        letter-spacing: -0.035em;
+        color: #FFFFFF;
+      }
+      
+      .usabg{
+        position: relative;
+        width: 28%;
+      }
+    
+      .usabg img {
+        position: absolute;
+        bottom: 0;
+        left: -260px;
+      }
+      
+      .olympic {
+        padding-top: 450px;
+        width: 50%;
+        position: relative;
+      }
+      
+      .olympic h1{
+        text-align: center;
+        font-size: 32px;
+        text-decoration: underline;
+      }
+      
+      .olympic p {
+        font-weight: 700;
+        font-size: 20px;
+        text-align: left;
+        text-decoration: none;
+        padding-left: 25%;
+      }
+
+      .p{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+  }
