@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Award</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/f63186d728.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ZCOOL QingKe HuangYou">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="icon" type="image/x-icon" href="images/LeBron-James-logo-768x432.png">
+    <link rel="stylesheet" href="award.css">
+</head>
+
+
+<body>
+    <div id="container">
+        <div class="topnav">
+
+            <div class="logo">
+                <a href="file:///C:/Users/leeju/Desktop/NEW%20ERA/BIBWB1114%20Web%20Design/github/assignment/home.html">
+                    <img src="images/LeBron-James-logo-768x432.png" class="active" alt="LBJ logo" width="20%">
+                </a>
+            </div>
+
+            <div class="menu" id="mymenu">
+                <a href="#">Home</a>
+                <a href="#">AWARD</a>
+                <a href="#">CAREER</a>
+                <a href="#">SHOE</a>
+                <a href="#">NEWS</a>
+                <a href="#">CONTACT US</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa-solid fa-basketball"></i>
+                </a>
+            </div>
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav(),myFunction">
+                    <i id="icon1" i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a>
+
+                <div class="overlay-content">
+                    <a href="#">AWARD</a>
+                    <a href="#">CAREER</a>
+                    <a href="#">SHOE</a>
+                    <a href="#">NEWS</a>
+                    <a href="#">CONTACT US</a>
+                </div>
+            </div>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("mymenu");
+                    if (x.className === "menu") {
+                        x.className += " responsive";
+                        document.getElementById("myNav").style.width = "100%";
+                    } else {
+                        x.className = "menu";
+                    }
+
+
+                    var x = document.getElementById("icon");
+                    if (x.className === "fa-solid fa-basketball") {
+                        x.className = "fa-solid fa-arrow-right-to-bracket";
+                    } else {
+                        x.className = "fa-solid fa-basketball";
+                    }
+                }
+
+                function closeNav() {
+                    document.getElementById("myNav").style.width = "0%";
+                }
+
+            </script>
+        </div>
+
+        <div class="section1">
+            <div class="line1">
+                <img src="images/award1.jpg" alt="" width="100%" class="image1">
+                <img src="images/fmvp.jpg" class="image2" />
+
+                <a>FOUR TIME FINAL MVP WINNER</a><br>
+                <a>2012 &emsp; &nbsp; 2013 &emsp; &nbsp; 2016 &emsp; &nbsp; 2020</a>
+            </div>
+        </div>
+
+        <div class="section2">
+            <div class="line2">
+                <p> FOUR TIME NBA CHAMPION</p>
+            </div>
+
+            <div class="div2">
+                <div class="box1">
+                    <img src="images/c1.png" alt="" width="100%" height="100%">
+                    <a>2012</a>
+                </div>
+
+                <div class="box2">
+                    <img src="images/c2.png" alt="" width="100%" height="100%">
+                    <a>2013</a>
+                </div>
+
+                <div class="box1">
+                    <img src="images/c3.jpg" alt="" width="100%" height="100%">
+                    <a>2016</a>
+                </div>
+
+                <div class="box2">
+                    <img src="images/c4.jpg" alt="" width="100%" height="100%">
+                    <a>2020</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+
+            <h3>#2nd ALL-TIME IN SCORING</h3>
+
+            <div class="score">
+                <h2>37,062</h2>
+            </div>
+
+            <div class="award">
+                <img src="images/award3-removebg-preview.png" alt="" width="100%">
+            </div>
+
+
+        </div>
+
+        <div class="section4">
+            <div class="line3">
+                <p>IN HIS CURRENT 19TH SEASON IN THE NBA, THE LOS ANGELES LAKERS SUPERSTAR HAS ADDED ONE MORE STAT TO
+                    HIS PROFESSIONAL LEGACY.</p>
+
+                <a>KING JAMES HAS NOW BECOME THE ONLY PLAYER IN THE <span>HISTORY OF THE NBA TO REACH 30,000 POINTS,
+                        10,000 REBOUNDS AND 10,000 ASSISTS</span>. TO PLAY AT A COMPETITIVE LEVEL AT 37-YEARS-OLD.</a>
+
+            </div>
+
+            <div class="line4">
+
+                <div>30K POINTS &nbsp;</div>
+                <br>
+
+                <div>10K REBOUNDS &nbsp;</div>
+                <br>
+
+                <div>10K ASSITS &nbsp;</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="copyright">
+                <h3>Copyright © 2022. All Rights Reserved.</h3>
+            </div>
+
+            <div class="quicklink">
+                <strong>QUICK LINK</strong> <br>
+                <a href="#">AWARD</a>
+                <a href="#">CAREER</a>
+                <a href="#">SHOE</a>
+                <a href="#">NEWS</a>
+                <a href="#">CONTACT US</a>
+            </div>
+
+            <div class="socialmedia">
+                <a href="https://www.instagram.com/kingjames/"><i class="fab fa-instagram"></i> INSTAGRAM</a>
+                <a href="https://www.facebook.com/LeBron"><i class="fab fa-facebook"></i> FACEBOOK</a>
+                <a href="https://twitter.com/KingJames"><i class="fab fa-twitter"></i> TWITTER</a>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>

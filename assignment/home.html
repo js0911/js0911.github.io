@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/f63186d728.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="icon" type="image/x-icon" href="images/LeBron-James-logo-768x432.png">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+
+<body>
+    <div id="container">
+
+        <div class="section1">
+            <div class="topnav">
+                <div class="logo">
+                    <a
+                        href="file:///C:/Users/leeju/Desktop/NEW%20ERA/BIBWB1114%20Web%20Design/github/assignment/home.html">
+                        <img src="images/LeBron-James-logo-768x432.png" alt="LBJ logo" width="50%">
+                    </a>
+                </div>
+
+
+                <div class="menu" id="mymenu">
+                    <a href="#">AWARD</a>
+                    <a href="#">CAREER</a>
+                    <a href="#">SHOE</a>
+                    <a href="#">NEWS</a>
+                    <a href="#">CONTACT US</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa-solid fa-basketball"></i>
+                    </a>
+                </div>
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav(),myFunction">
+                        <i id="icon1" i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </a>
+
+                    <div class="overlay-content">
+                        <a href="#">AWARD</a>
+                        <a href="#">CAREER</a>
+                        <a href="#">SHOE</a>
+                        <a href="#">NEWS</a>
+                        <a href="#">CONTACT US</a>
+                    </div>
+                </div>
+
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("mymenu");
+                        if (x.className === "menu") {
+                            x.className += " responsive";
+                            document.getElementById("myNav").style.width = "100%";
+                        } else {
+                            x.className = "menu";
+                        }
+
+
+                        var x = document.getElementById("icon");
+                        if (x.className === "fa-solid fa-basketball") {
+                            x.className = "fa-solid fa-arrow-right-to-bracket";
+                        } else {
+                            x.className = "fa-solid fa-basketball";
+                        }
+                    }
+
+                    function closeNav() {
+                        document.getElementById("myNav").style.width = "0%";
+                    }
+
+                </script>
+            </div>
+
+
+            <div class="quote">
+                <div><a>"Nothing is given. <span>Everything is earned.</span>" </a>
+                </div>
+                <div><a href="#section2"><i class="fa-solid fa-caret-down"></i></a></div>
+            </div>
+        </div>
+
+        <div id="section2">
+            <div class="flex">
+                <div class="name">
+                    <h2>LEBRON <span>JAMES</span></h2>
+                </div>
+
+                <div class="sec2">
+                    <strong>JUST A KID FROM AKRON</strong>
+                    <p>Never forgetting where he came from is central to everything LeBron does. No matter where he goes
+                        in
+                        the world, he will always be a kid from Akron.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+            <div class="p1">
+                <p> LeBron is the all -time leading scorer in U.S. men's basketball history and he also joined Michael
+                    Jordan as the only players to win an NBA MVP award , NBA championship , NBA Finals MVP and Olympic
+                    gold medal in the same year . </p>
+            </div>
+
+            <div class="usabg">
+                <img src="images/home3.png" width="100%" alt="USA">
+            </div>
+
+            <div class="olympic">
+                <h1>OLYMPIC GAME</h1>
+
+                <p>2004 -ATHENES</p>
+                <p>2008 -BEIJING</p>
+                <p>2012 -LONDON</p>
+            </div>
+
+        </div>
+
+        <div class="section4">
+            <div class="sign">
+                <img src="images/home4.png" alt="sign" width="100%">
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="copyright">
+                <h3>Copyright © 2022. All Rights Reserved.</h3>
+            </div>
+
+            <div class="quicklink">
+                <strong>QUICK LINK</strong>
+                <a href="#">AWARD</a>
+                <a href="#">CAREER</a>
+                <a href="#">SHOE</a>
+                <a href="#">AWARD</a>
+                <a href="#">CONTACT US</a>
+            </div>
+
+            <div class="socialmedia">
+                <a href="https://www.instagram.com/kingjames/"><i class="fab fa-instagram"></i> INSTAGRAM</a>
+                <a href="https://www.facebook.com/LeBron"><i class="fab fa-facebook"></i> FACEBOOK</a>
+                <a href="https://twitter.com/KingJames"><i class="fab fa-twitter"></i> TWITTER</a>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
