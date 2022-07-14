@@ -468,6 +468,12 @@ html {
   
   @media screen and (max-width: 800px){
     .section3{
+      background-image: url(../images/usa.png);
+      height: auto;
+      background-size:100%;
+      background-position-y: center;
+      width: 100%;
+   
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
