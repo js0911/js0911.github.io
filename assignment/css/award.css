@@ -132,6 +132,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-left: 120px;
+    gap: 20px;
     font-family: 'ZCOOL QingKe HuangYou';
     font-size: 30px;
     height: auto;
@@ -195,7 +196,7 @@
   
   .line3 span {
     font-weight: 800;
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .line4 {
@@ -229,7 +230,7 @@
   .quicklink {
     width: 25%;
     font-weight: 400;
-    padding-top: 20px;
+    padding-top:40px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -312,6 +313,7 @@
       margin-left: 0px;
       margin-bottom: 10px;
       font-size: 4vw;
+      
       max-height: auto;
     }
   
@@ -338,17 +340,18 @@
   
     .line3 {
       width: 100%;
-      font-size: 3vw;
+      font-size: 25px;
     }
   
     .line3 span {
-      font-size: 4vw;
+      font-size: 25px;
     }
   
     .line4 {
       font-size: 5vw;
       display: flex;
       flex-direction: row;
+     gap: 30px;
       margin-top: 10%;
       margin-bottom: 5%;
       margin-left: auto;
@@ -379,6 +382,7 @@
       width: 50%;
       font-weight: 400;
       font-size: 15px;
+      padding-top: 80px;
     }
   
     .socialmedia {
