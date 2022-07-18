@@ -107,8 +107,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-
-
     align-items: center;
     background-color: #21325E;
 }
@@ -131,12 +129,6 @@ body {
     color: #2F3C7E;
 }
 
-/* Links - change color on hover */
-.box1 a:hover {
-
-    border-radius: 10px;
-}
-
 /*CONTACT FORM*/
 .section3 {
     background-color: 3E497A;
@@ -146,9 +138,29 @@ body {
     box-sizing: border-box;
 }
 
+legend{
+    text-align: center;
+}
+
 input[type=text],
 select,
 textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+[type=tel] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -182,7 +194,6 @@ input[type=submit]:hover {
     width: 50%;
     padding: 20px;
     margin: 40px auto;
-
 }
 
 .d1 {
@@ -212,14 +223,7 @@ input[type=submit]:hover {
 label {
     font-size: 20px;
 }
-
 /*CONTACT FORM*/
-
-
-
-
-
-
 
 
 /*FOOTER*/
@@ -343,6 +347,13 @@ label {
     }
 
 
+    .form {
+    border-radius: 5px;
+    background-color: #21325E;
+    width: 80%;
+    padding: 20px;
+    margin: 40px auto;
+}
     /*Footer*/
     .footer {
         display: flex;
@@ -382,6 +393,5 @@ label {
         font-size: 20px;
         margin-bottom: 15px;
     }
-
     /*Footer*/
 }
