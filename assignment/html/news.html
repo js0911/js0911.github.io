@@ -2,18 +2,17 @@
 <html>
 
 <head>
-    <title>Award</title>
+    <title>News</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/f63186d728.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ZCOOL QingKe HuangYou">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
     <link rel="icon" type="image/x-icon" href="../images/LeBron-James-logo-768x432.png">
-    <link rel="stylesheet" href="../css/award.css">
+    <link rel="stylesheet" href="../css/news.css">
 </head>
 
 
-<body onload="load()">
+<body>
     <div id="container">
         <div class="topnav">
 
@@ -72,121 +71,89 @@
                 function closeNav() {
                     document.getElementById("myNav").style.width = "0%";
                 }
-
             </script>
         </div>
 
         <div class="section1">
             <div class="line1">
-                <img src="../images/award1.jpg" alt="" width="100%" class="image1">
-                <img src="../images/fmvp.jpg" class="image2" />
-
-                <a>FOUR TIME FINAL MVP WINNER</a><br>
-                <a>2012 &emsp; &nbsp; 2013 &emsp; &nbsp; 2016 &emsp; &nbsp; 2020</a>
+                <h2>Recently in the news</h2>
             </div>
         </div>
 
         <div class="section2">
-            <div class="line2">
-                <p> FOUR TIME NBA CHAMPION</p>
+            <div class="box1">
+                <a href="https://www.foxsports.com/stories/nba/steph-klay-lebron-ad-kd-kyrie-highlight-top-10-nba-duos"
+                    target="_blank">
+                    
+                    <div class="t1">
+                        <h5>STEPH-KLAY, LEBRON-AD, KD-KYRIE HIGHLIGHT TOP 10 NBA DUOS<br>
+                            FOX SPORTS , 30/06/2022 </h5>
+                    </div>
+
+                    <div class="img">
+                        <img src="../images/new1.jpg" alt="" width="100%" height="100%">
+                    </div>
+
+                    <div class="t2">
+                        <p>Joy Taylor identifies her top 10 NBA duos ahead of free agency. Who made the cut?</p>
+                    </div>
+                </a>
             </div>
 
-            <div class="div2">
-                <div class="box1">
-                    <img src="../images/c1.png" alt="" width="100%" height="100%">
-                    <a>2012</a>
+            <div class="box1">
+                <a href="https://www.foxsports.com/stories/nba/lebron-james-rumored-to-be-considering-a-return-to-cavaliers"
+                    target="_blank">
+                    <div class="t1">
+                        <h5>LEBRON JAMES RUMORED TO BE CONSIDERING CAVS RETURN IN 2023<br>
+                            FOX SPORTS , 28/06/2022 </h5>
+                    </div>
+
+                    <div class="img">
+                        <img src="../images/new2.jpg" alt="" width="100%" height="100%">
+                    </div>
+
+                    <div class="t2">
+                        <p>Could LeBron James be reuniting with the Cleveland Cavaliers for the third time? It's certainly a possibility.</p>
+                    </div>
+                </a>
+            </div>
+        
+
+        
+            <div class="box1">
+                <a href="https://www.foxsports.com/stories/nba/will-kyrie-irving-opt-out-of-nets-deal-to-join-lebron-lakers"
+                    target="_blank">
+                    <div class="t1">
+                        <h5>WILL KYRIE IRVING OPT-OUT OF NETS DEAL TO JOIN LEBRON, LAKERS?<br>
+                            FOX SPORTS , 24/06/2022</h5>
+                    </div>
+
+                    <div class="img">
+                        <img src="../images/new3.jpg" alt="" width="100%" height="100%">
+                    </div>
+
+                    <div class="t2">
+                        <p>If Kyrie Irving declines his $36.9 million player option with Brooklyn for next season, a LeBron James reunion could happen.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="box1">
+                <a href="https://www.foxsports.com/stories/nba/can-steph-curry-move-past-lebron-among-all-time-greats"
+                    target="_blank">
+                <div class="t1">
+                    <h5>CAN STEPH CURRY MOVE PAST LEBRON AMONG ALL-TIME GREATS?<br> 
+                        FOX SPORTS , 20/6/2022</h5>
                 </div>
 
-                <div class="box2">
-                    <img src="../images/c2.png" alt="" width="100%" height="100%">
-                    <a>2013</a>
+                <div class="img">
+                    <img src="../images/new4.jpg" alt="" width="100%" height="100%">
                 </div>
 
-                <div class="box1">
-                    <img src="../images/c3.jpg" alt="" width="100%" height="100%">
-                    <a>2016</a>
+                <div class="t2">
+                    <p>Chris Broussard outlines what it will take for Stephen Curry to pass LeBron James on the GOAT list.</p>
                 </div>
-
-                <div class="box2">
-                    <img src="../images/c4.jpg" alt="" width="100%" height="100%">
-                    <a>2020</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="section3">
-
-            <h3>#2nd ALL-TIME IN SCORING</h3>
-
-            <div class="score" >
-                <h1 id="counter"></h1>
-                <h2>37,062</h2>
-
-                <script>
-                    function animate(obj, initVal, lastVal, duration) {
-                       let startTime = null;
-              
-                    //get the current timestamp and assign it to the currentTime variable
-                    let currentTime = Date.now();
-              
-                    //pass the current timestamp to the step function
-                    const step = (currentTime ) => {
-              
-                    //if the start time is null, assign the current time to startTime
-                    if (!startTime) {
-                       startTime = currentTime ;
-                    }
-              
-                    //calculate the value to be used in calculating the number to be displayed
-                    const progress = Math.min((currentTime - startTime)/ duration, 1);
-              
-                    //calculate what to be displayed using the value gotten above
-                    obj.innerHTML = Math.floor(progress * (lastVal - initVal) + initVal);
-              
-                    //checking to make sure the counter does not exceed the last value (lastVal)
-                    if (progress < 1) {
-                       window.requestAnimationFrame(step);
-                    } else {
-                          window.cancelAnimationFrame(window.requestAnimationFrame(step));
-                       }
-                    };
-                    //start animating
-                       window.requestAnimationFrame(step);
-                    }
-                    let text1 = document.getElementById('counter');
-                
-                    const load = () => {
-                       animate(text1, 0, 37062, 7000);
-                    }
-                 </script>
-            </div>
-
-            <div class="award">
-                <img src="../images/award3-removebg-preview.png" alt="" width="100%">
-            </div>
-
-
-        </div>
-
-        <div class="section4">
-            <div class="line3">
-                <p>IN HIS CURRENT 19TH SEASON IN THE NBA, THE LOS ANGELES LAKERS SUPERSTAR HAS ADDED ONE MORE STAT TO
-                    HIS PROFESSIONAL LEGACY.</p>
-
-                <a>KING JAMES HAS NOW BECOME THE ONLY PLAYER IN THE <span>HISTORY OF THE NBA TO REACH 30,000 POINTS,
-                        10,000 REBOUNDS AND 10,000 ASSISTS</span>. TO PLAY AT A COMPETITIVE LEVEL AT 37-YEARS-OLD.</a>
-
-            </div>
-
-            <div class="line4">
-
-                <div>30K POINTS &nbsp;</div>
-                <br>
-
-                <div>10K REBOUNDS &nbsp;</div>
-                <br>
-
-                <div>10K ASSITS &nbsp;</div>
+                </a>
             </div>
         </div>
 
@@ -209,11 +176,8 @@
                 <a href="https://www.facebook.com/LeBron"><i class="fab fa-facebook"></i> FACEBOOK</a>
                 <a href="https://twitter.com/KingJames"><i class="fab fa-twitter"></i> TWITTER</a>
             </div>
-
         </div>
 
-
-    </div>
+</div>
 </body>
-
 </html>

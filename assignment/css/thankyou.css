@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+button{
+    border-radius:10px;
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(90deg, #13547a,#80d0c7);
+    color: white;
+    cursor: pointer;
+}

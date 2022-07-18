@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/f63186d728.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="icon" type="image/x-icon" href="../images/LeBron-James-logo-768x432.png">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+
+<body>
+    <div id="container">
+        <div class="topnav">
+
+            <div class="logo">
+                <a href="https://leejunsheng.github.io/assignment/home.html">
+                    <img src="../images/LeBron-James-logo-768x432.png" class="active" alt="LBJ logo" width="20%">
+                </a>
+            </div>
+
+            <div class="menu" id="mymenu">
+                <a href="https://leejunsheng.github.io/assignment/home.html">HOME</a>
+                <a href="https://leejunsheng.github.io/assignment/award.html">AWARD</a>
+                <a href="https://leejunsheng.github.io/assignment/career.html">CAREER</a>
+                <a href="https://leejunsheng.github.io/assignment/shoe.html">SHOE</a>
+                <a href="https://leejunsheng.github.io/assignment/news.html">NEWS</a>
+                <a href="https://leejunsheng.github.io/assignment/contact.html">CONTACT US</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav(),myFunction">
+                    <i id="icon1" i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a>
+
+                <div class="overlay-content">
+                    <a href="https://leejunsheng.github.io/assignment/home.html">HOME</a>
+                    <a href="https://leejunsheng.github.io/assignment/award.html">AWARD</a>
+                    <a href="https://leejunsheng.github.io/assignment/career.html">CAREER</a>
+                    <a href="https://leejunsheng.github.io/assignment/shoe.html">SHOE</a>
+                    <a href="https://leejunsheng.github.io/assignment/news.html">NEWS</a>
+                    <a href="https://leejunsheng.github.io/assignment/contact.html">CONTACT US</a>
+                </div>
+            </div>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("mymenu");
+                    if (x.className === "menu") {
+                        x.className += " responsive";
+                        document.getElementById("myNav").style.width = "100%";
+                    } else {
+                        x.className = "menu";
+                    }
+
+
+                    var x = document.getElementById("icon");
+                    if (x.className === "fa-solid fa-bars") {
+                        x.className = "fa-solid fa-arrow-right-to-bracket";
+                    } else {
+                        x.className = "fa-solid fa-bars";
+                    }
+                }
+
+                function closeNav() {
+                    document.getElementById("myNav").style.width = "0%";
+                }
+
+            </script>
+        </div>
+
+        <div class="section1">
+            <div class="line1">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+
+        <div class="section2">
+            <div class="box1">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4>Address</h4>
+                <hr class="my-4 mx-auto" />
+                <div>
+                    <a href="https://www.google.com/maps/place/Bandar+Puchong+Jaya,+Puchong,+Selangor/data=!4m2!3m1!1s0x31cc4b5f81fee603:0x6b29ed8f093dec5f?sa=X&ved=2ahUKEwj1maikyYL5AhVpUGwGHd_6CfkQ8gF6BAgCEAE">Bandar Puchong Jaya 47170 Selangor <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box1">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4>Email</h4>
+                <hr class="my-4 mx-auto" />
+                <div><a
+                        href="mailto:leejunsheng0911@e.newera.edu.my">leejunsheng0911<br>@e.newera.edu.my</a>
+                </div>
+            </div>
+
+            <div class="box1">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4>Phone</h4>
+                <hr class="my-4 mx-auto" />
+                <div><a href="tel:60183597066">+60183597066</a></div>
+            </div>
+        </div>
+
+        <div clas="section3">
+        <div class="form">
+            <form action="thankyou.html">
+              <div class="row">
+                <div class="d1">
+                  <label for="name">Name</label>
+                </div>
+                <div class="d2">
+                  <input type="text" id="name" name="name" placeholder="Your name..">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="d1">
+                  <label for="email">Email</label>
+                </div>
+                <div class="d2">
+                  <input type="text" id="email" name="email" placeholder="abc123@gmail.com">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="d1">
+                  <label for="phone">Phone</label>
+                </div>
+                <div class="d2">
+                  <input type="text" id="phone" name="phone" placeholder="+60123456789">
+                </div>
+              </div>
+ 
+              <div class="row">
+                <div class="d1">
+                  <label for="message">Message</label>
+                </div>
+                <div class="d2">
+                  <textarea id="message" name="message" placeholder="Tell us more" style="height:200px"></textarea>
+                </div>
+              </div>
+              
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+</div>
+
+
+        <div class="footer">
+            <div class="copyright">
+                <h3>Copyright © 2022. All Rights Reserved.</h3>
+            </div>
+
+            <div class="quicklink">
+                <a href="https://leejunsheng.github.io/assignment/home.html">HOME</a>
+                <a href="https://leejunsheng.github.io/assignment/award.html">AWARD</a>
+                <a href="https://leejunsheng.github.io/assignment/career.html">CAREER</a>
+                <a href="https://leejunsheng.github.io/assignment/shoe.html">SHOE</a>
+                <a href="https://leejunsheng.github.io/assignment/news.html">NEWS</a>
+                <a href="https://leejunsheng.github.io/assignment/contact.html">CONTACT US</a>
+            </div>
+
+            <div class="socialmedia">
+                <a href="https://www.instagram.com/kingjames/" target="_blank"><i class="fab fa-instagram"></i> INSTAGRAM</a>
+                <a href="https://www.facebook.com/LeBron" target="_blank"><i class="fab fa-facebook"></i> FACEBOOK</a>
+                <a href="https://twitter.com/KingJames" target="_blank"><i class="fab fa-twitter"></i> TWITTER</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
