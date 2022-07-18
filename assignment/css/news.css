@@ -47,6 +47,11 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: underline;
     border-radius: 10px;
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 .menu .icon {
@@ -96,6 +101,15 @@ body {
 
 /*NAVIGATION BAR*/
 
+.box1 :hover :nth-child(2) {
+    -ms-transform: scale(1.02);
+    /* IE 9 */
+    -webkit-transform: scale(1.02);
+    /* Safari 3-8 */
+    transform: scale(1.02);
+}
+
+
 .section1 {
     display: flex;
     justify-content: center;
@@ -113,14 +127,13 @@ body {
 .section2 a {
     color: white;
     text-decoration: none;
-    
+
 }
 
-.section2 a:hover {
-       
-        color: rgb(255, 7, 7);
-        text-decoration: underline;
-        
+.section2 a:hover :nth-child(3) {
+    color: rgb(7, 172, 255);
+    text-decoration: underline;
+
 }
 
 .section2 p {
@@ -199,6 +212,22 @@ body {
     text-decoration: none;
 }
 
+.socialmedia :hover {
+    -ms-transform: scale(1.02);
+    /* IE 9 */
+    -webkit-transform: scale(1.02);
+    /* Safari 3-8 */
+    transform: scale(1.02);
+}
+
+.quicklink :hover {
+    -ms-transform: scale(1.02);
+    /* IE 9 */
+    -webkit-transform: scale(1.02);
+    /* Safari 3-8 */
+    transform: scale(1.02);
+}
+
 @media screen and (max-width: 800px) {
 
 
@@ -248,7 +277,7 @@ body {
         margin-bottom: 20px;
     }
 
-    .copyright h3{
+    .copyright h3 {
         font-size: 20px;
     }
 
@@ -272,6 +301,16 @@ body {
         font-size: 20px;
         margin-bottom: 15px;
     }
+
+    .socialmedia a :hover {
+
+        -ms-transform: scale(1.2);
+        /* IE 9 */
+        -webkit-transform: scale(1.2);
+        /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+
     /*Footer*/
 
     .section1 h2 {
@@ -306,7 +345,7 @@ body {
         justify-content: center;
     }
 
-    .t1 h5{
+    .t1 h5 {
         padding: 2%;
     }
 
@@ -318,8 +357,9 @@ body {
         margin-bottom: 5%;
     }
 
+
     .t2 {
-        font-size: 20px;
+        font-size: 13px;
         height: 100%;
         margin-bottom: 5%;
     }

@@ -1,170 +1,170 @@
 html {
-    scroll-behavior: smooth;
-  }
-  
-  #container {
-    max-width: 1320px;
-    background-color:  #06283D;
-  }
-  
-  body {
-    font-family: 'Raleway';
-    font-size: 32px;
-    margin: 0;
-  }
-  
-  .section1 {
-    background-image: url(../images/home1.jpg);
-    height: auto;
-    width: 100%;
-    max-width: 1320px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    border: none;
-  }
-  
-  .menu a {
-    font-weight: 400;
-    font-size: 17px;
-    margin-right: 20px;
-  }
-  
-  .topnav {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    align-items: center;
-    background-color: #FFFFFF;
-    opacity: 90%;
-  }
-  
-  /* Navbar links */
-  .topnav a {
-    color: #000000;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-  }
-  
-  /* Links - change color on hover */
-  .menu a:hover {
-    background-color: black;
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    border-radius: 10px;
-  }
-  
-  .section1 i {
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .menu .icon {
-    display: none;
-  }
-  
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #000000;
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-  
-  .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color:white;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .overlay a:hover,
-  .overlay a:focus {
-    color: #f1f1f1;
-  }
-  
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-  
-  .quote{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 35%;
-  }
-  
-  .quote a{
-    color: #FFFFFF;
-  }
-  
-  .quote span{
-    font-weight: 700;
-    font-size: 32px;
-  }
-  
-  .main{
-    height: 1000px;
-  }
-  
-  #section2 {
+  scroll-behavior: smooth;
+}
+
+#container {
+  max-width: 1320px;
+  background-color: #06283D;
+}
+
+body {
+  font-family: 'Raleway';
+  font-size: 32px;
+  margin: 0;
+}
+
+.section1 {
+  background-image: url(../images/home1.jpg);
+  height: 100vh;
+  width: 100%;
+  max-width: 1320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.menu a {
+  font-weight: 400;
+  font-size: 17px;
+  margin-right: 20px;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: #FFFFFF;
+  opacity: 90%;
+}
+
+/* Navbar links */
+.topnav a {
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.menu a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  border-radius: 10px;
+}
+
+.section1 i {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu .icon {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 35%;
+}
+
+.quote a {
+  color: #FFFFFF;
+}
+
+.quote span {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.main {
+  height: 1000px;
+}
+
+#section2 {
   background-image: url(../images/home1.png);
   height: 800px;
   width: 100%;
   max-width: 1320px;
   background-repeat: no-repeat;
-  background-size:100%;
+  background-size: 100%;
   border: none;
-  }
-  
-  .name {
-    margin: 0;
-  }
-  
-  .name h2 {
-    font-weight: 400;
-    font-size: 50px;
-    text-align: center;
-    letter-spacing: -0.035em;
-    color: #1400FF;
-    margin: 0;
-    margin-left: 50%;
-  }
-  
-  .name span {
-    font-weight: 800;
-  }
-  
-  .sec2 {
-    font-size: 30px;
-    margin: 0;
-    text-align: center;
-    letter-spacing: -0.035em;
-    color: #000000;
-    margin-left: 50%;
-    margin-top: 10%;
-  }
-  
-  /*.section3 {
+}
+
+.name {
+  margin: 0;
+}
+
+.name h2 {
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #1400FF;
+  margin: 0;
+  margin-left: 50%;
+}
+
+.name span {
+  font-weight: 800;
+}
+
+.sec2 {
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #000000;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+/*.section3 {
     background-image: url(images/TEAM\ USA\ BG.png);
     height: auto;
     background-size: 100%;
@@ -212,228 +212,308 @@ html {
     margin-left: 110px;
     text-decoration: none;
   }*/
-  
-  .section4 {
-    display: flex;
-    height: auto;
-    justify-content: center;
-    background-color: #FFFFFF;
-  }
-  
-  .logo{
-    width: 80px;
-      display: flex;
-  }
-  
-  .sign {
-    width: 280px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  /*Footer*/
-  .footer {
-    height: 220px;
-    background-color: #D9D9D9;
-    display: flex;
-  }
-  
-  .copyright {
-    display: flex;
-   margin: 6%;
-    width: 50%;
-    height: 65px;
-    color: rgba(57, 20, 0, 0.65);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-  }
-  
-  .quicklink{
-    width: 25%;
-    font-weight: 400;
-    padding-top: 50px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  strong{
-    text-decoration: underline;
-  }
-  
-  .socialmedia {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    padding-top: 75px;
-  }
-  
-  .quicklink a{
-    font-size: 20px;
-    text-decoration: none;
-    color: #000000;
-  }
-  
-  .socialmedia a {
-    text-decoration: none;
-    font-family: 'Raleway';
-    color: black;
-    padding: 5px;
-    font-size: 20px;
-    text-decoration: none;
-  }
-  
 
-  @media screen and (max-width: 800px){
-        
-    .section1 {
-      background-image: url(../images/2310ff80760189.5ceade8af1e0a.jpg);
-      width: auto;
-      height: 100%;
-      max-height: 1000px;
-      background-repeat: no-repeat;
-      background-size:cover;
-      border: none;
-    }
-    
-    .flex{
-      display: flex;
-      flex-wrap: wrap-reverse;
-    }
-    .quote{
-      margin-top: 100%;
-    }
-  
-    .quote a{
-      font-size: 3vw;
-      color: #000000;
-      display: none;
-    }
-    
-    .quote span{
-      font-size: 3vw;
-      color: white;
-    }
-   
-    #section2 {
-      background-image: url(../images/untilted\ design600px.png);
-      height: 600px;
-      width: 100%;
-      max-width: 1320px;
-      background-repeat: no-repeat;
-      background-size:cover;
-      border: none;
-      }
-  
-      .sec2 {
-        font-size:19px;
-        margin-left: 0;
-        margin-top: 0;
-      }
-  
-      .name {
-        width: 100%;
-        margin-top: 50px;
-      }
-      
-   /*footer*/
-    .footer{
-      display: flex;
-      flex-wrap: wrap-reverse;
-      height: 350px;
-    }
-    
-    .copyright {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      margin-bottom: 20px;
-    }
-    
-    .quicklink{
-      width: 50%;
-      font-weight: 400;
-      font-size: 15px;
-      padding-top: 50px;
-    }
-    
-    .socialmedia {
-      width: 50%;
-    }
-    
-    .quicklink a{
-      font-size: 15px;
-      padding-left: 15%;
-     margin-bottom: 15px;
-    }
-    
-    .socialmedia a {
-      font-size: 15px;
-      margin-bottom: 15px;
-    }
-    
-     /*MENU*/
-     .menu a {
-      display: none;
-      margin-right: 0;
-    }
-    
-    .section1 i{
-      font-size: 20px;
-    }
-    .menu a.icon {
-      display: block;
-    }
-  
-    .menu {
-      flex-direction: column;
-      box-shadow: 0px 5px 10px 10px rgb(22 5 207 / 10%);
-      border-radius: 6px;
-    }
-  
-    .topnav {
-      display: flex;
-      justify-content: space-between;
-      background: #FFFFFF;
-      opacity: 0.9;
-      height: 30px;
-    }
-  
-    .logo {
-      display: block;
-    }
-  
-  /*MENU*/
+.section4 {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+
+.logo {
+  width: 80px;
+  display: flex;
+}
+
+.sign {
+  width: 280px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Footer*/
+.footer {
+  height: 220px;
+  background-color: #D9D9D9;
+  display: flex;
+}
+
+.copyright {
+  display: flex;
+  margin: 6%;
+  width: 50%;
+  height: 65px;
+  color: rgba(57, 20, 0, 0.65);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.quicklink {
+  width: 25%;
+  font-weight: 400;
+  padding-top: 50px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding-top: 75px;
+}
+
+.quicklink a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.socialmedia a {
+  text-decoration: none;
+  font-family: 'Raleway';
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.socialmedia :hover {
+  -ms-transform: scale(1.02);
+  /* IE 9 */
+  -webkit-transform: scale(1.02);
+  /* Safari 3-8 */
+  transform: scale(1.02);
+}
+
+.quicklink :hover {
+  -ms-transform: scale(1.02);
+  /* IE 9 */
+  -webkit-transform: scale(1.02);
+  /* Safari 3-8 */
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 800px) {
+
+  .section1 {
+    background-image: url(../images/2310ff80760189.5ceade8af1e0a.jpg);
+    width: auto;
+    height: 100%;
+    max-height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
   }
-  
-   .section3 {
-    background-image: url(../images/TEAM\ USA\ BG.png);
-    height: auto;
-    background-size:cover;
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .quote {
+    margin-top: 100%;
+  }
+
+  .quote a {
+    font-size: 3vw;
+    color: #000000;
+    display: none;
+  }
+
+  .quote span {
+    font-size: 3vw;
+    color: white;
+  }
+
+  #section2 {
+    background-image: url(../images/untilted\ design600px.png);
+    height: 600px;
     width: 100%;
     max-width: 1320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+  }
+
+  .sec2 {
+    font-size: 19px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .name {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  /*footer*/
+  .footer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: 350px;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .quicklink {
+    width: 50%;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 50px;
+  }
+
+  .socialmedia {
+    width: 50%;
+  }
+
+  .quicklink a {
+    font-size: 15px;
+    padding-left: 15%;
+    margin-bottom: 15px;
+  }
+
+  .socialmedia a {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  /*MENU*/
+  .menu a {
+    display: none;
+    margin-right: 0;
+  }
+
+  .section1 i {
+    font-size: 20px;
+  }
+
+  .menu a.icon {
+    display: block;
+  }
+
+  .menu {
+    flex-direction: column;
+    box-shadow: 0px 5px 10px 10px rgb(22 5 207 / 10%);
+    border-radius: 6px;
+  }
+
+  .topnav {
     display: flex;
     justify-content: space-between;
-    background-repeat: no-repeat;
-    background-position-x: center;
+    background: #FFFFFF;
+    opacity: 0.9;
+    height: 30px;
   }
-  
+
+  .logo {
+    display: block;
+  }
+
+  /*MENU*/
+}
+
+.section3 {
+  background-image: url(../images/TEAM\ USA\ BG.png);
+  height: auto;
+  background-size: cover;
+  width: 100%;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.p1 {
+  width: 30%;
+  height: 50%;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 14%;
+  padding-left: 20px;
+  letter-spacing: -0.035em;
+  color: #FFFFFF;
+}
+
+.usabg {
+  position: relative;
+}
+
+.usabg img {
+  position: absolute;
+  bottom: 0;
+  left: -260px;
+}
+
+.olympic {
+  padding-top: 250px;
+  width: 25%;
+  height: 400px;
+  color: #FFFFFF;
+}
+
+.olympic h1 {
+  text-align: center;
+  font-size: 32px;
+  text-decoration: underline;
+
+}
+
+.olympic p {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  text-decoration: none;
+  padding-left: 25%;
+}
+
+@media screen and (max-width: 800px) {
+  .menu a:hover {
+    text-decoration: none;
+  }
+
+  .section3 {
+    background-image: url(../images/usa1.png);
+    height: auto;
+    background-size: 100%;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   .p1 {
-    width: 30%;
+    width: 100%;
     height: 50%;
+    display: flex;
+    flex-direction: row;
     font-weight: 400;
-    font-size: 28px ;
+    font-size: 19px;
     text-align: center;
-    padding-top: 14%;
-    padding-left: 20px;
+    padding-top: 0%;
+    padding-left: 0;
     letter-spacing: -0.035em;
     color: #FFFFFF;
   }
-  
-  .usabg{
+
+  .usabg {
     position: relative;
+    width: 28%;
   }
 
   .usabg img {
@@ -441,21 +521,19 @@ html {
     bottom: 0;
     left: -260px;
   }
-  
+
   .olympic {
-    padding-top: 250px;
-    width: 25%;
-    height: 400px;
-    color: #FFFFFF;
+    padding-top: 450px;
+    width: 50%;
+    position: relative;
   }
-  
-  .olympic h1{
+
+  .olympic h1 {
     text-align: center;
     font-size: 32px;
     text-decoration: underline;
-    
   }
-  
+
   .olympic p {
     font-weight: 700;
     font-size: 20px;
@@ -463,80 +541,19 @@ html {
     text-decoration: none;
     padding-left: 25%;
   }
-  
-  @media screen and (max-width: 800px){
-    .menu a:hover {
-      text-decoration: none;
-    }
 
-    .section3{
-      background-image: url(../images/usa1.png);
-      height: auto;
-      background-size:100%;
-      background-position-y: center;
-      width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-      .p1 {
-        width: 100%;
-        height: 50%;
-        display: flex;
-        flex-direction: row;
-        font-weight: 400;
-        font-size: 19px ;
-        text-align: center;
-        padding-top: 0%;
-        padding-left: 0;
-        letter-spacing: -0.035em;
-        color: #FFFFFF;
-      }
-      
-      .usabg{
-        position: relative;
-        width: 28%;
-      }
-    
-      .usabg img {
-        position: absolute;
-        bottom: 0;
-        left: -260px;
-      }
-      
-      .olympic {
-        padding-top: 450px;
-        width: 50%;
-        position: relative;
-      }
-      
-      .olympic h1{
-        text-align: center;
-        font-size: 32px;
-        text-decoration: underline;
-      }
-      
-      .olympic p {
-        font-weight: 700;
-        font-size: 20px;
-        text-align: left;
-        text-decoration: none;
-        padding-left: 25%;
-      }
-
-      .p{
-        position: absolute;
-        bottom: 50px;
-        right: 0;
-      }
-
-      
+  .p {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
   }
 
-  @media screen and (max-width: 475px){
-    .name h2{
+
+}
+
+@media screen and (max-width: 475px) {
+  .name h2 {
     font-size: 20px;
     padding-left: 50px;
-    }
   }
+}
