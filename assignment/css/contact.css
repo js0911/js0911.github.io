@@ -330,9 +330,11 @@ label {
         display: block;
     }
 
-    .topnav i{
+    .overlay i{
         font-size: 35px;
       }
+
+
     /*MENU*/
     body {
         font-size: 20px;
@@ -349,7 +351,6 @@ label {
         margin-bottom: 10px;
     }
 
-
     .form {
     border-radius: 5px;
     background-color: #21325E;
@@ -357,6 +358,13 @@ label {
     padding: 20px;
     margin: 40px auto;
 }
+
+.box1 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #2F3C7E;
+}
+
     /*Footer*/
     .footer {
         display: flex;

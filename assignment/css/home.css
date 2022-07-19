@@ -422,9 +422,10 @@ strong {
     display: block;
   }
 
-  .topnav i{
+  .overlay i{
     font-size: 35px;
   }
+  
   /*MENU*/
 }
 
