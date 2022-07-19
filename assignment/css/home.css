@@ -4,13 +4,14 @@ html {
 
 #container {
   max-width: 1320px;
-  background-color: #06283D;
+  background-color: #06283D;  
+  margin: auto;
 }
 
 body {
   font-family: 'Raleway';
   font-size: 32px;
-  margin: auto;
+
 }
 
 .section1 {
