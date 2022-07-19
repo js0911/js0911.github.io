@@ -330,6 +330,9 @@ label {
         display: block;
     }
 
+    .topnav i{
+        font-size: 35px;
+      }
     /*MENU*/
     body {
         font-size: 20px;
@@ -370,7 +373,7 @@ label {
     }
 
     .copyright h3 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .quicklink {
@@ -384,13 +387,13 @@ label {
     }
 
     .quicklink a {
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 20%;
         margin-bottom: 15px;
     }
 
     .socialmedia a {
-        font-size: 20px;
+        font-size: 15px;
         margin-bottom: 15px;
     }
     /*Footer*/

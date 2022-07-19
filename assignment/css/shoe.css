@@ -281,6 +281,9 @@ body {
     display: block;
   }
 
+  .topnav i{
+    font-size: 35px;
+  }
   /*MENU*/
 
   /*Footer*/
