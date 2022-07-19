@@ -97,13 +97,12 @@ body {
 /*NAVIGATION BAR*/
 
 .box1 :hover :nth-child(2) {
-    -ms-transform: scale(1.02);
+    -ms-transform: scale(0.02);
     /* IE 9 */
-    -webkit-transform: scale(1.02);
+    -webkit-transform: scale(0.02);
     /* Safari 3-8 */
     transform: scale(1.02);
 }
-
 
 .section1 {
     display: flex;
