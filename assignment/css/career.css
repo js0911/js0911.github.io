@@ -109,22 +109,24 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align:center;
 }
 
 .section2 {
   display: flex;
   height: 500px;
-  text-align: center;
+  text-align:end;
+  padding-right: 80px;
 }
 
 .section3 {
-  background-color: #3E497A;
+  background-color:    #3E497A;
   color: white;
   display: flex;
   flex-direction: row-reverse;
   height: 500px;
-  text-align: center;
+  text-align:start;
+  padding-left: 80px;
 }
 
 .box1 {
@@ -257,15 +259,20 @@ img {
     display: flex;
     flex-wrap: wrap;
     height: 600px;
+    text-align:center;
+    padding-right: 0px;
+    margin: 0;
   }
 
   .section3 {
-    background-color: #3E497A;
     color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     height: 600px;
+    text-align:center;
+    padding-left: 0px;
+    margin: 0;
   }
 
   .box1 {

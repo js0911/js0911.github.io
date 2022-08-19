@@ -107,6 +107,7 @@ body {
   color: white;
   display: block;
   text-align: center;
+  
 }
 
 .section2 {
@@ -115,16 +116,18 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .line2 {
   display: flex;
   flex-direction: column;
   width: 5%;
-  text-align: center;
+  text-align:center;
   font-style: italic;
   font-weight: 700;
   font-size: 28px;
+  
 }
 
 .div2 {
@@ -132,7 +135,6 @@ body {
   justify-content: space-evenly;
   margin-left: 120px;
   gap: 20px;
-  font-family: 'ZCOOL QingKe HuangYou';
   font-size: 30px;
   height: auto;
   width: 95%;
@@ -159,16 +161,15 @@ body {
 
 .section3 {
   height: 610px;
-  background-color: #000000;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Montserrat';
+ 
 }
 
 .section3 h3 {
   color: #AEAAAA;
-
 }
 
 .score {
@@ -177,7 +178,6 @@ body {
   border-top: solid 2px #AEAAAA;
   color: #EAFF6A;
   text-align: center;
-
 }
 
 .section4 {
@@ -199,7 +199,6 @@ body {
 }
 
 .line4 {
-  font-family: 'ZCOOL QingKe HuangYou';
   font-size: 35px;
   display: flex;
   flex-direction: column;
@@ -304,6 +303,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
   }
 
   .line2 {

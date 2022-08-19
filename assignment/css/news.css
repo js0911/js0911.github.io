@@ -96,13 +96,16 @@ body {
 
 /*NAVIGATION BAR*/
 
+
 .box1 :hover :nth-child(2) {
     -ms-transform: scale(0.02);
     /* IE 9 */
     -webkit-transform: scale(0.02);
     /* Safari 3-8 */
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
+
+
 
 .section1 {
     display: flex;
@@ -115,7 +118,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-family: 'Open Sans';
+ 
 }
 
 .section2 a {

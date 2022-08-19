@@ -128,7 +128,7 @@ body {
 }
 
 #section2 {
-  background-image: url(../images/home1.png);
+  background-image: url(../images/lebronillus.jpg);
   height: 800px;
   width: 100%;
   max-width: 1320px;
@@ -305,7 +305,7 @@ strong {
 @media screen and (max-width: 800px) {
 
   .section1 {
-    background-image: url(../images/2310ff80760189.5ceade8af1e0a.jpg);
+    background-image: url(../images/mobilehome.jpg);
     width: auto;
     height: 100%;
     max-height: 1000px;
@@ -335,7 +335,7 @@ strong {
   }
 
   #section2 {
-    background-image: url(../images/untilted\ design600px.png);
+    background-image: url(../images/mobile600px.png);
     height: 600px;
     width: 100%;
     max-width: 1320px;
@@ -431,7 +431,7 @@ strong {
 }
 
 .section3 {
-  background-image: url(../images/TEAM\ USA\ BG.png);
+  background-image: url(../images/teamusabg.jpg);
   height: auto;
   background-size: cover;
   width: 100%;
@@ -492,7 +492,7 @@ strong {
   }
 
   .section3 {
-    background-image: url(../images/usa1.png);
+    background-image: url(../images/usamobile.jpg);
     height: auto;
     background-size: 100%;
     background-position-y: center;
