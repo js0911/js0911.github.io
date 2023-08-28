@@ -4,7 +4,7 @@ margin: 0;
 }
 
 #container {
-    background-image: url(../images/forest.jpg);
+    background-image: url(../../images/forest.jpg);
     background-size: cover;
     position: relative;
   }
